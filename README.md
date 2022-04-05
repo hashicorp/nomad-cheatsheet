@@ -40,3 +40,5 @@ A collection of cheatsheets for getting started with Nomad!
 ## Contributing
 
 Did we miss one of your favorite commands? We welcome the community to contribute to this repo and insert commands that were helpful for you in your Nomad journey. We also welcome the addition of any new cheatsheets centered around Nomad. 
+
+**Note: Changes to this README has to be reflected in `docs/index.md` to show up on the website**
