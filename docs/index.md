@@ -64,4 +64,3 @@ Learning new tools can be difficult at first, so we wanted curate and collect a 
 Did we miss one of your favorite commands? We welcome the community to contribute to this repo and insert commands that were helpful for you in your Nomad journey. We also welcome the addition of any new cheatsheets centered around Nomad. If you'd rather not contribute directly, we still encourage you to make an issue outlining what additions you'd like to see.
 
 
-**Note: Changes to this README has to be reflected in `docs/index.md` to show up on the website**
