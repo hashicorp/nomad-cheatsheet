@@ -9,6 +9,8 @@ A collection of cheatsheets for getting started with Nomad!
 
 ## Kubernetes -> Nomad Command cheatsheet 
 
+
+
 | What the command does                                                                                                                | Kubernetes                                                                  | Nomad                                                                                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Print the logs for a container in a pod or specified resource. If the pod has only one container,<br>the container name is optional. | kubectl logs pod\_identifier                                                | nomad alloc logs {allocID}                                                                                                                                                                   |
@@ -23,6 +25,7 @@ A collection of cheatsheets for getting started with Nomad!
 | Create example workload                                                                                                              |                                                                             | nomad job init                                                                                                                                                                               |
 | Open UI for object                                                                                                                   | No Kubernetes equivalent (Kubernetes Dashboard is not a guaranteed install) | nomad ui {some ID}                                                                                                                                                                           |
 
+
 ## Kubernetes -> Nomad Concepts Cheatsheet
 
 | Kubernetes  | Nomad                                        |
@@ -35,6 +38,8 @@ A collection of cheatsheets for getting started with Nomad!
 | Job         | Batch Job                                    |
 | CronJob     | Periodic Batch Job                           |
 | Namespace   | Namespace                                    |
+
+
 
 
 ## Contributing
