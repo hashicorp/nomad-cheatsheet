@@ -10,6 +10,7 @@ A collection of cheatsheets for getting started with Nomad!
 ## Kubernetes -> Nomad Command cheatsheet 
 
 
+
 | What the command does                                                                                                                | Kubernetes                                                                  | Nomad                                                                                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Print the logs for a container in a pod or specified resource. If the pod has only one container,<br>the container name is optional. | kubectl logs pod\_identifier                                                | nomad alloc logs {allocID}                                                                                                                                                                   |
