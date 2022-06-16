@@ -2,6 +2,8 @@
 
 A collection of cheatsheets for getting started with [Nomad](https://github.com/hashicorp/nomad)! 
 
+For the PDF Version of this cheatsheet, click [here](https://www.datocms-assets.com/2885/1650045163-kubernetes-to-nomad-cheat-sheet-v2.pdf).
+
 
 
 ## Motivation
