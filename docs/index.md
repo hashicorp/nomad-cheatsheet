@@ -34,11 +34,10 @@ Learning new tools can be difficult at first, so we wanted curate and collect a 
 | Execute a command in a container                                                                                    | kubectl exec                                                | nomad alloc exec                                                                                                                         | 
 Create example workload                                                                                                              |                                                                             kubectl create deployment -- image redis-example -o yaml --dry-run=client| nomad job init                                                                                                                                                                               |
 | Open UI for object                                                                                                                   | No direct equivalent. (Kubernetes Dashboard is an optionally available add-on) | nomad ui {identifier}                                                                                                                                                                           |
+| Resources from specific namespace | kubectl -n / kubectl --namespace | nomad <command> -namespace= <sup>*</sup>|
 
 
-
-
-
+<sup>*</sup> With nomad the argument placement fixed and not as flexibel as with kubectl where you can put the namespace before or after.
 
 ## Kubernetes -> Nomad Concepts Cheatsheet
 
@@ -55,6 +54,7 @@ Create example workload                                                         
 | Node        | Node (or sometimes “Client” as they map 1:1) |
 | Job         | Batch Job                                    |
 | CronJob     | Periodic Batch Job                           |
+| Namespace   | Namespace                                    |
 
 
 
